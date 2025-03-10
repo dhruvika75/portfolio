@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.services-section{
+    border: solid 1px rgb(216, 194, 194);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    overflow-y:scroll;
+    width: 100%;
+    
+    height:530px;
+
+    
+}
+.serv-des{
+    font-size: 18px;
+    font-weight: 700px !important;
+}
+.serv-des{
+    font-size: 25px;
+}
+.servicesimgs img{
+    width: 100%;
+}
+.servicesimgs{
+    background-color: white;
+    border-radius: 20px;
+}
+.service1-card{
+    background-color:#E4E7EF ;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+.faq-item {
+    margin: 10px 0;
+  }
+  
+  .faq-question {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .faq-answer {
+    display: none;
+    margin-top: 5px;
+  }
+  
+  .faq-answer.open {
+    display: block;
+  }
+  
+  .arrow {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow.open {
+    transform: rotate(180deg); /* Turns the arrow when the answer is open */
+  }
+
+  .faq-list {
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 6px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+}
+  .faq-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+  }
+  
+  .faq-question:hover {
+    color: #4770ff;
+  }
+  
+  .arrow {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow.open {
+    transform: rotate(180deg);
+  }
+  
+  .faq-answer {
+    padding: 10px;
+    font-size: 16px;
+    color: #555;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+  }
+  
+  .service-container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .service-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .service1{
+      width: 100%;
+    }
+  }

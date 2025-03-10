@@ -1,0 +1,98 @@
+
+
+:root {
+    --skyblue: #4770FF;
+    --textwhite:#FFFF;
+
+
+  }
+  
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.profile-sec{
+    width: 400px;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: solid 1px rgb(224, 215, 215);
+}
+.profile-sec img{
+    width: 100%;
+    background-color: #F0F2F5;
+}
+.profile-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: space-between; */
+}
+.btn1{
+    background-color: var(--skyblue);
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+.btn1 a{
+    color: var(--textwhite);
+
+}
+.btn2{
+    border-radius: 7px;
+    padding: 10px 20px;
+    border: solid 1px rgb(224, 217, 217);
+}
+.btn2 a{
+    color: #000;
+    font-weight: 700;
+}
+.port-icons i{
+    border-radius: 3px;
+    border: solid 1px rgb(225, 223, 223);
+    padding: 10px 10px;
+    margin: 2px;
+    font-size: 20px;
+    color: #384559;
+
+}
+@media (max-width: 1024px){
+    .profile-sec{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px){
+    .profile-sec{
+        width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .profile-btn{
+        white-space: nowrap;
+
+        
+    }
+    .btn1{
+        width: 110px;
+        text-align: center;
+        font-size: 14px;
+
+    }
+    .btn2{
+        width: 110px;
+        text-align: center;
+        font-size: 14px;    
+
+    }
+    .btn2 a{
+        padding-right: 20px;
+    }
+    .profile-sec{
+        width: 100%;
+      
+    }
+    .profile{
+        margin-bottom: 15px;
+    }
+}

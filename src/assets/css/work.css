@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.title{
+    font-size: 18px;
+    color: #687084;
+}
+.worktitle img{ 
+width: 100%;
+}
+.workspace{
+    border-radius: 20px;
+    border: solid 1px rgb(197, 188, 188);
+    padding: 20px 20px 20px 20px;
+}
+.workspace  img{
+    border-radius: 20px;
+}

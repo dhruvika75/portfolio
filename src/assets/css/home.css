@@ -1,0 +1,249 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.workexpriance{
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    border: solid 1px rgb(213, 210, 210);
+
+}
+.workexpriance img{
+    width: 70px;
+    height: 70px;
+ 
+
+}
+.expriance{
+    height: 290px;
+    gap: 15px;
+
+
+
+}
+ul{
+    padding-left: 0px;
+    display: flex;
+        justify-content: space-between;
+}
+.icons{
+    background-color:#F0F2F5;
+    
+    text-align: center;
+    border-radius: 5px;
+   
+}
+.icons li{
+    padding: 10px;
+}
+.workexpriance li{
+  
+    padding: 8px 20px;
+    gap: 10px;
+  
+}
+.recentproject{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 1px rgb(221, 211, 211);
+    width: 476px;
+    
+
+}
+.recentproject img{
+    width: 400px;
+    height: 230px;
+    border-radius: 5px;
+}
+.services{
+    padding: 20px;
+    background-color: #fafbfd;
+    
+    margin-top: 20px;
+    width: 100%;
+    border: solid 1px rgb(221, 211, 211);
+
+    border-radius: 20px;
+
+}
+.service1{
+    background-color: #e4e7ef;
+    border-radius: 6px;
+    width: 100%;
+
+    padding: 10px 10px;
+    text-align: center;
+}
+.service1 img{
+    width: 100%;
+   
+}
+.servicesimg{
+    padding: 10px 10px;
+
+    background-color: #FFF;
+     border-radius: 10px;
+}
+.servicesimg img{
+    width: 70px;
+}
+.servicesicon{
+    display: flex;
+    gap: 20px;
+}
+.service-sec{
+   width: 100%;
+    display: flex;
+    gap: 20px;
+
+}
+.talkwith{
+    border-radius: 20px;
+    border: solid 1px rgb(209, 194, 194);
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+    width: 100%;
+}
+.talkwith h1{
+    font-weight: 500;
+}
+.talkwith p{
+    background-color: #F0F2F5;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+
+@media (max-width: 1024px) {
+   #homepage{
+    flex-direction: column;
+   }
+
+    .expriance {
+        flex-direction: column;
+        height: auto;
+    }
+    .recentproject img {
+        width: 100%;
+        height: auto;
+    }
+    .recentproject{
+        width: 100%;
+    }
+    .services {
+        width: 100%;
+    }
+    .home-direction{
+        flex-direction: column;
+
+    }
+    .service-sec{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 992px) {
+    .servicesicon {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .service1 {
+        width: 100%;
+        padding: 31px
+    }
+    .service1 span{
+    font-size: 25px;
+    font-weight: 600;
+ 
+    }
+    .recentproject{
+        width: 100%;
+    }
+    .talkwith h1 {
+        font-size: 30px;
+    }
+   
+    .talkwith span{
+        font-size: 44px;
+    }
+    .talkwith p{
+        font-size: 44px;
+    }
+    #homepage{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column;
+    }
+    .icons {
+        width: 50px;
+    }
+    .recentproject img {
+        width: 100%;
+    }
+    .servicesicon {
+        flex-direction: column;
+    }
+    .home-direction{
+        flex-direction: column;
+    }
+    .service-sec{
+        flex-direction:column ;
+    }
+    .services .service1{
+        width: 100%;
+    }
+    .icons{
+  
+        width: 100%;
+        padding: 10px;
+    }
+    .workexpriance ul{
+       gap: 10px;
+       flex-direction: column;
+ 
+    }
+}
+
+@media (max-width: 576px) {
+    .workexpriance,
+    .recentproject,
+    .services,
+    .talkwith {
+        width: 100%;
+        padding: 15px;
+    }
+    .icons li {
+        padding: 5px;
+    }
+  .service-sec{
+        flex-direction:column ;
+    }
+    .services .service1{
+        width: 100%;
+    }
+    .icons{
+  
+        width: 100%;
+        padding: 10px;
+        
+    }
+    .workexpriance ul{
+       gap: 10px;
+       flex-direction: column;
+ 
+    }
+}

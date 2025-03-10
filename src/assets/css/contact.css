@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.contact{
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    border: solid 1px rgb(227, 218, 218);
+    background-color: white;
+}
+.contact-title{
+    font-size: 18px;
+    color: #687084;
+    
+}
+.contact-form{
+    background-color: #F0F2F5;
+    border-radius: 10px;
+    padding: 25px;
+}
+.contact-part{
+    gap: 15px;
+}
+.contact-part input {
+    width: 400px;
+    padding: 7px;
+    height: 50px;
+    
+    border-radius: 8px;
+    border: solid 1px rgb(214, 209, 209);
+}
+
+.contact-part input:focus {
+    border-color: solid 1px rgb(194, 102, 102); 
+}
+.contact input::placeholder{
+    padding: 7px;
+}
+.commectsec textarea{
+    width:100%;
+    height: 120px;
+    border-radius: 10px;
+ padding: 10px;
+ border: solid 1px rgb(208, 198, 198);
+ color: rgb(102, 97, 97);
+}
+.name-email select{
+    width: 400px;
+    height: 50px;
+    border-radius: 7px;
+    border: solid 1px ;
+    border: solid 1px rgb(223, 218, 218);
+    padding: 7px;
+    color: gray;
+}
+.sendmess button{
+    width: 100%;
+    height: 40px;
+    background-color: #3669F5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+   #contact{
+    flex-direction: column;
+   }
+   
+}
+@media (max-width: 768px) {
+    #contact{
+        flex-direction: column;
+       }
+       .commectsec textarea{
+        width: 100%;
+       }
+       .name-email input{
+        width: 100%;
+
+       }
+       .contact-form{
+        flex-direction: column;
+       }
+}
+@media (max-width: 768px) {
+    #contact{
+        flex-direction: column;
+       }
+       .commectsec textarea{
+        width: 100%;
+       }
+       .name-email input{
+        width: 100%;
+
+       }
+       .name-email select{
+        width: 100%;
+       }
+       .contact-form{
+        flex-direction: column;
+       }
+}
+
+
