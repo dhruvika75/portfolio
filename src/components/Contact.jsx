@@ -4,6 +4,7 @@ import Header from "../global/Haeder";
 import Profile from "../global/Profile";
 import "../assets/css/contact.css";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -28,17 +29,45 @@ const Contact = () => {
         formData,
         "ZEA8MDFjF3rsl9RAY" // Replace with your EmailJS Public Key
       )
+      // .then(
+      //   (response) => {
+      //     console.log("Email sent successfully!", response);
+      //     alert("Email sent successfully!");
+      //     setFormData({ name: "", email: "", subject: "", budget: "", Comment: "" });
+      //   },
+      //   (error) => {
+      //     console.error("Failed to send email:", error);
+      //     alert("Failed to send email.");
+      //   }
+      // );
       .then(
         (response) => {
           console.log("Email sent successfully!", response);
-          alert("Email sent successfully!");
+          
+          // Show success alert using SweetAlert2
+          Swal.fire({
+            icon: "success",
+            title: "Success!",
+            text: "Your email has been sent successfully!",
+            confirmButtonText: "OK",
+          });
+      
+          // Reset form data
           setFormData({ name: "", email: "", subject: "", budget: "", Comment: "" });
         },
         (error) => {
           console.error("Failed to send email:", error);
-          alert("Failed to send email.");
+          
+          // Show error alert using SweetAlert2
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Something went wrong! Your email couldn't be sent.",
+            footer: '<a href="#">Why do I have this issue?</a>',
+          });
         }
       );
+      
   };
 
   return (

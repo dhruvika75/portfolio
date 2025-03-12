@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e38f7ab0.css",
+    "main.js": "/static/js/main.f5844dd9.js",
+    "static/media/project-2.png": "/static/media/project-2.3e36501cb8f1f3bab683.png",
+    "static/media/admin panel.png": "/static/media/admin panel.6ecf988663eb88e47cf5.png",
+    "static/media/profile img.jpeg": "/static/media/profile img.5980ee3e24bd44c074e5.jpeg",
+    "static/media/hellow.png": "/static/media/hellow.dee648757c0af30379a3.png",
+    "static/media/post man.svg": "/static/media/post man.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
+    "static/media/react-svgrepo-com.svg": "/static/media/react-svgrepo-com.f57b349b4d9df56c9b48c916a8d5adfb.svg",
+    "static/media/landing page.svg": "/static/media/landing page.41b055de16b8edbc3839e31ad939c992.svg",
+    "static/media/node.svg": "/static/media/node.a7f2ccf30eed3e5878a2ba1e6be108a2.svg",
+    "static/media/nextjs-icon-svgrepo-com.svg": "/static/media/nextjs-icon-svgrepo-com.e3c042b9d9d809ebb67e9bc6e1e5f70d.svg",
+    "static/media/ecommerce-website-commerce-and-shopping-2-svgrepo-com.svg": "/static/media/ecommerce-website-commerce-and-shopping-2-svgrepo-com.b040dd1a69c86b91defaf2325ca54546.svg",
+    "static/media/javascript.svg": "/static/media/javascript.0866c81b3b841c647e23b8a5d991c312.svg",
+    "index.html": "/index.html",
+    "static/media/branding.svg": "/static/media/branding.6c2a84a339575abfbe13aa794e05d4ca.svg",
+    "static/media/fire base.svg": "/static/media/fire base.8f69a13150a1594d8fb73df74f12b548.svg",
+    "static/media/web-development.svg": "/static/media/web-development.84eadba00c219aba810d30a6e5196a64.svg",
+    "static/media/product.svg": "/static/media/product.5ff75655b0a178ac1fbc3684a1cea309.svg",
+    "static/media/material ui.svg": "/static/media/material ui.734426c25d85d6f02b49b98d28ef9f03.svg",
+    "static/media/mongodb-svgrepo-com.svg": "/static/media/mongodb-svgrepo-com.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
+    "static/media/tailwind-css-svgrepo-com.svg": "/static/media/tailwind-css-svgrepo-com.78c92cee54f7e897c18b939b258e181c.svg",
+    "static/media/expressjs-icon.svg": "/static/media/expressjs-icon.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
+    "static/media/css.svg": "/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
+    "static/media/html.svg": "/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
+    "main.e38f7ab0.css.map": "/static/css/main.e38f7ab0.css.map",
+    "main.f5844dd9.js.map": "/static/js/main.f5844dd9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e38f7ab0.css",
+    "static/js/main.f5844dd9.js"
+  ]
+}

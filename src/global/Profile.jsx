@@ -34,7 +34,7 @@ function Profile() {
               </div>
               <div className="btn2" onClick={copyToClipboard}>
                 <a href="#">
-                  <i className="fa-regular fa-copy"></i>
+                  <i className="fa-regular fa-copy mx-1"></i>
                   {copied ? "Copied!" : "Copy Email"}
                 </a>
                 

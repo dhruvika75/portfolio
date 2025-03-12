@@ -31,9 +31,13 @@ function About() {
           <Profile />
           <div class="about-inner-sec">
             <p ><span className='aboutname'>Hi,This Is </span><span style={{ color: "#4770FF", fontWeight: "700", fontSize: "30px" }}>Dhruvika Kakadiya <img src={hellow} alt="" /></span></p>
-            <p><span style={{ color: "#5C657A" }}>
+            {/* <p><span style={{ color: "#5C657A" }}>
               A Passionate </span> <span style={{ color: "#4770FF" }}>Full Stack Developer 🖥️  <span style={{ color: "#5C657A" }}>&</span> <span style={{ color: "#5C657A" }}>Product Designer</span> <span>having </span> <span style={{ color: "#5C657A" }}>12 years </span> <span style={{ color: "#4770FF" }}>of Experiences over 24+ Country Worldwide.</span></span></p>
-            <p style={{ fontSize: "25px", fontWeight: "600", paddingTop: "10px" }}>Working With 7 Tools ✨ Worldwide</p>
+            <p style={{ fontSize: "25px", fontWeight: "600", paddingTop: "10px" }}>Working With 7 Tools ✨ Worldwide</p> */}
+             <p style={{alignItems:"justify"}}>
+           <b > <span style={{color:"#576076"}}>Frontend Developer</span> | 6 Months Experience
+           Skilled in <span style={{color:"#576076"}}>HTML, CSS, JavaScript, and React.js,</span> with a strong grasp of UI/UX principles. Experienced in building <span style={{color:"#576076"}}>responsive web applications, optimizing performance</span>, and collaborating with teams. Passionate about clean code and continuous learning.</b>
+            </p>
 
             <ul style={{ display: "flex", gap: "10px" }} id="s-icon">
               <div className='iconsservices'>

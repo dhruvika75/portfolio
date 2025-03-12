@@ -42,6 +42,8 @@
     border-radius: 7px;
     padding: 10px 20px;
     border: solid 1px rgb(224, 217, 217);
+    display: flex;
+    gap: 10px;
 }
 .btn2 a{
     color: #000;
@@ -56,16 +58,29 @@
     color: #384559;
 
 }
+.nav-actions2{
+    display: none;
+}
 @media (max-width: 1024px){
     .profile-sec{
         width: 100%;
         margin-bottom: 20px;
     }
+   
 }
 @media (max-width: 768px){
     .profile-sec{
         width: 100%;
+
     }
+    .nav-actions{
+        display: none;
+    }
+    .nav-actions2{
+        display: block;
+        margin-bottom: 10px;
+    }
+ 
 }
 @media (max-width: 576px) {
     .profile-btn{
@@ -73,14 +88,17 @@
 
         
     }
+    .nav-actions2{
+        display: block;
+    }
     .btn1{
-        width: 110px;
+   
         text-align: center;
         font-size: 14px;
 
     }
     .btn2{
-        width: 110px;
+      width: 143px;
         text-align: center;
         font-size: 14px;    
 
@@ -95,4 +113,22 @@
     .profile{
         margin-bottom: 15px;
     }
+    .container-fluid{
+        padding: 20px 20px 20px 20px;
+
+    }
+   
+    .navbar-nav{
+        padding: 20px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+       
+    }
+    .navbar-toggler{
+        box-shadow: rgba(189, 189, 195, 0.2) 0px 7px 29px 0px;
+        font-size: 16px;
+    }
+
 }
